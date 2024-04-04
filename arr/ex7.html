@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let arr = [1, 2, 3, 4, 1, 4, 5, 6, 1]
+    let arrt = [];
+    let a = +prompt('mời nhập số')
+    for (let i = 0; i < arr.length; i++) {
+        arrt[i] = 0;
+    }
+    for (let i = 0; i < arr.length; i++) {
+        arrt[arr[i]]++;
+    }
+    console.log(arrt[a]);
+</script>
+
+</html>

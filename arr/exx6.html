@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let a = ['a', 'c', '1', '2', '3']
+    let input;
+    let check = false;
+    while (!check) {
+        input = prompt("Nhập vào số bất kỳ");
+
+        if (a.includes(input)) {
+            alert(`Number ${input} co trong mang`);
+            check = true;
+        } else {
+            alert(`Number ${input} ko co trong mang`);
+        }
+    }
+</script>
+
+</html>
